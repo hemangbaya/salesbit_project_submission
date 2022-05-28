@@ -5,6 +5,7 @@ This project is make with the help of Angular on the frondend side and the serve
 ### Entities -
 Block-
     block_no: {type: String, required: true, unique: true},
+    
     yard:{type:String, default:''},
     yard_history:{type:Array, default:[]},
     date: {type:String, default:''},
