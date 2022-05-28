@@ -4,8 +4,8 @@ This project is make with the help of Angular on the frondend side and the serve
 
 ### Entities -
 Block-
+
     block_no: {type: String, required: true, unique: true},
-    
     yard:{type:String, default:''},
     yard_history:{type:Array, default:[]},
     date: {type:String, default:''},
@@ -34,6 +34,7 @@ Block-
     layer_type:{type:String}
     
  Company -
+ 
     company: {type:String, require:true, unique:true},
     line_1: {type:String, default:''},
     line_2: {type:String, default:''},
@@ -41,6 +42,7 @@ Block-
     terms:{type:String, default:''}
     
  Invoice-
+ 
     trade_id: {type: String, required: true, unique: true},
     date: {type: String, default:''},
     dispatched: {type: Boolean, default:false},
@@ -60,6 +62,7 @@ Block-
     quotation: {type: Boolean}
  
  Quarry-
+ 
     quarry: {type:String, require:true, unique:true},
     quarry_address: {type:String, default:''},
     specific_gravity:{type:Number, default:0},
@@ -70,6 +73,7 @@ Block-
     slabs_hsn_code: {type:String, default: ''}
 
 Slabs-
+
     block_no:{type: String, require:true, unique:true},
     yard:{type: String, default:''},
     yard_history:{type:Array, default: []},
@@ -95,6 +99,7 @@ Slabs-
     unit: {type:Number, default:''}
     
 Trade - 
+
     block_no: {type:String, require:true},
     trade_id: {type:String, default:''},
     user: {type: String, default:''},
@@ -115,6 +120,7 @@ Trade -
     quotation: {type: Boolean}
     
  User-
+ 
     user: {type:String, require:true, unique:true},
     name: {type:String, require:true},
     password: {type:String, require:true},
@@ -124,6 +130,7 @@ Trade -
     forgot_password_secret:{type:String, default:''}
     
 Yard -
+
     yard: {type:String, require:true, unique:true},
     yard_address: {type:String, default:''}
 
