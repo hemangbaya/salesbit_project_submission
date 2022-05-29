@@ -1,10 +1,14 @@
 # Abstract:
 . Introduction
+
+
 This Software Requirements Specification provides a complete description of all
 the functions and specifications of the webapp Salesbit.
 The main objective of this web application is to ease the workflow of mining
 industries by making them able to manage all their inventory and sales data
 effortlessly and analysing the reports for any scope of improvement.
+
+
 1.2. Scope
 The scope of this project is very broad as it can be used by any stone mining
 industry, it could be granite, marble, etc. Some other advantages are :
@@ -16,12 +20,13 @@ This system will be used in Three User Modules which are Administrator,
 Manager, and Salesman. As all of these have different requirements the modules
 are designed to meet their needs and avoid any type of confusion. The Uses of
 all three User Modules have been described below.
+
 [1] User can do the following functions in the Administrator Module
 -> View overall Stock/Sales figures.
 -> Assign Roles to other users (Manager or Salesman).
 -> View Sales activity.
 [2] User can do the following functions in the Administrator Module
-13
+
 -> Add/Remove Block.
 -> Add/Remove Company.
 -> Add/Remove Quarry.
